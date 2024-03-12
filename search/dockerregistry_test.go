@@ -3,8 +3,8 @@ package search
 import (
 	"testing"
 
+	"github.com/shasderias/whalebrew/dockerregistry"
 	"github.com/stretchr/testify/assert"
-	"github.com/whalebrew/whalebrew/dockerregistry"
 )
 
 type fakeCatalog struct{}

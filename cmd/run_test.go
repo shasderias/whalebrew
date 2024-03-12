@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/shasderias/whalebrew/cmd"
+	"github.com/shasderias/whalebrew/packages"
+	"github.com/shasderias/whalebrew/run"
 	"github.com/stretchr/testify/assert"
-	"github.com/whalebrew/whalebrew/cmd"
-	"github.com/whalebrew/whalebrew/packages"
-	"github.com/whalebrew/whalebrew/run"
 )
 
 type testRunner func(e *run.Execution) error

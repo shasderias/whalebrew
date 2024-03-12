@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/shasderias/whalebrew/config"
+	"github.com/shasderias/whalebrew/search"
 	"github.com/spf13/cobra"
-	"github.com/whalebrew/whalebrew/config"
-	"github.com/whalebrew/whalebrew/search"
 )
 
 func init() {

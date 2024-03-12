@@ -13,11 +13,11 @@ import (
 	"syscall"
 
 	"github.com/Songmu/prompter"
+	"github.com/shasderias/whalebrew/config"
+	"github.com/shasderias/whalebrew/hooks"
+	"github.com/shasderias/whalebrew/packages"
+	"github.com/shasderias/whalebrew/run"
 	"github.com/spf13/cobra"
-	"github.com/whalebrew/whalebrew/config"
-	"github.com/whalebrew/whalebrew/hooks"
-	"github.com/whalebrew/whalebrew/packages"
-	"github.com/whalebrew/whalebrew/run"
 )
 
 var customPackageName string

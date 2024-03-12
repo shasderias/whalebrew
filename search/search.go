@@ -3,8 +3,8 @@ package search
 import (
 	"fmt"
 
-	"github.com/whalebrew/whalebrew/config"
-	"github.com/whalebrew/whalebrew/dockerregistry"
+	"github.com/shasderias/whalebrew/config"
+	"github.com/shasderias/whalebrew/dockerregistry"
 )
 
 // ErrorHandler handles the logic when an error occurs and returns whether to continue or stop

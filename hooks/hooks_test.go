@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/shasderias/whalebrew/config"
 	"github.com/stretchr/testify/assert"
-	"github.com/whalebrew/whalebrew/config"
 )
 
 type testRunner struct {

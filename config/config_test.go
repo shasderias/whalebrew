@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/shasderias/whalebrew/config"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/whalebrew/whalebrew/config"
 )
 
 func createConfigFile(t *testing.T, dir string, content ...io.Reader) {

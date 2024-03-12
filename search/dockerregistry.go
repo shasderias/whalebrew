@@ -3,7 +3,7 @@ package search
 import (
 	"strings"
 
-	"github.com/whalebrew/whalebrew/dockerregistry"
+	"github.com/shasderias/whalebrew/dockerregistry"
 )
 
 // DockerRegistry implements the Searcher interface searching over a docekr registry

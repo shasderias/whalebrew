@@ -3,9 +3,9 @@ package cmd
 import (
 	"fmt"
 
+	"github.com/shasderias/whalebrew/packages"
+	"github.com/shasderias/whalebrew/run"
 	"github.com/spf13/cobra"
-	"github.com/whalebrew/whalebrew/packages"
-	"github.com/whalebrew/whalebrew/run"
 )
 
 func init() {

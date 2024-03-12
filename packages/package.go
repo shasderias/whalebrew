@@ -10,8 +10,8 @@ import (
 	"strings"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/whalebrew/whalebrew/run"
-	"github.com/whalebrew/whalebrew/version"
+	"github.com/shasderias/whalebrew/run"
+	"github.com/shasderias/whalebrew/version"
 
 	imagev1 "github.com/opencontainers/image-spec/specs-go/v1"
 	"gopkg.in/yaml.v3"

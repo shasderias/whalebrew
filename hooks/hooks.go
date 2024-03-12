@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/whalebrew/whalebrew/config"
+	"github.com/shasderias/whalebrew/config"
 )
 
 type stater interface {

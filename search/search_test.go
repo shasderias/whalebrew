@@ -3,8 +3,8 @@ package search
 import (
 	"testing"
 
+	"github.com/shasderias/whalebrew/config"
 	"github.com/stretchr/testify/assert"
-	"github.com/whalebrew/whalebrew/config"
 )
 
 func TestForRepositories(t *testing.T) {

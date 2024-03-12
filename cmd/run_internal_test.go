@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/shasderias/whalebrew/packages"
 	"github.com/stretchr/testify/assert"
-	"github.com/whalebrew/whalebrew/packages"
 )
 
 func TestShouldBind(t *testing.T) {

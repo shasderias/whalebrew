@@ -1,4 +1,4 @@
-module github.com/whalebrew/whalebrew/actions/release
+module github.com/shasderias/whalebrew/actions/release
 
 go 1.17
 

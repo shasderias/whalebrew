@@ -6,9 +6,9 @@ import (
 	"path"
 	"syscall"
 
+	"github.com/shasderias/whalebrew/config"
+	"github.com/shasderias/whalebrew/packages"
 	"github.com/spf13/cobra"
-	"github.com/whalebrew/whalebrew/config"
-	"github.com/whalebrew/whalebrew/packages"
 )
 
 func init() {

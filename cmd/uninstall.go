@@ -6,10 +6,10 @@ import (
 	"path"
 
 	"github.com/Songmu/prompter"
+	"github.com/shasderias/whalebrew/config"
+	"github.com/shasderias/whalebrew/hooks"
+	"github.com/shasderias/whalebrew/packages"
 	"github.com/spf13/cobra"
-	"github.com/whalebrew/whalebrew/config"
-	"github.com/whalebrew/whalebrew/hooks"
-	"github.com/whalebrew/whalebrew/packages"
 )
 
 var forceUninstall bool

@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/shasderias/whalebrew/packages"
+	"github.com/shasderias/whalebrew/run"
 	"github.com/spf13/pflag"
-	"github.com/whalebrew/whalebrew/packages"
-	"github.com/whalebrew/whalebrew/run"
 	"golang.org/x/crypto/ssh/terminal"
 )
 
